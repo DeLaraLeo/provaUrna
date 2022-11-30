@@ -1,0 +1,41 @@
+.voto img{
+  width: 80%;
+  height: 80%;
+}
+
+.urna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+
+$colors: (
+  primary:    #3e66ab,
+  secondary:  #32db64,
+  danger:     #dd303e,
+  light:      #edeff2,
+  dark:       #333333
+);
+
+.linhas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.visor{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titulo{
+  text-align: center
+}
